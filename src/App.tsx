@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HelmetProvider } from "react-helmet-async";
+import { HelmetProvider, Helmet } from "react-helmet-async";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Header from "./components/Layout/Header";
@@ -17,6 +17,9 @@ import ScrollToTop from "./components/Layout/ScrollToTop";
 function App() {
   return (
     <HelmetProvider>
+      <Helmet>
+        <title>BalloonTec - Indie Software Developers</title>
+      </Helmet>
       <Router>
         <ScrollToTop />
         <div className="flex flex-col min-h-screen">
