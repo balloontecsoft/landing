@@ -2,8 +2,9 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import ProductHero from "../components/Product/ProductHero";
 import ProductBenefits from "../components/Product/ProductBenefits";
+import BcbInfoSection from "../components/Product/BcbInfoSection";
 import ProductFAQ from "../components/Product/ProductFAQ";
-import ProductBetaForm from "../components/Product/ProductBetaForm";
+import ProductFuture from "../components/Product/ProductFuture";
 
 /**
  * Main Product Detail Page component.
@@ -60,9 +61,11 @@ const ProductDetail: React.FC = () => {
 
       <ProductBenefits />
 
+      <BcbInfoSection />
+
       <ProductFAQ />
 
-      <ProductBetaForm />
+      <ProductFuture />
     </div>
   );
 };
