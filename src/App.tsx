@@ -5,6 +5,7 @@ import Products from "./pages/Products";
 import Header from "./components/Layout/Header";
 import Footer from "./components/Layout/Footer";
 import ProductDetail from "./pages/ProductDetail";
+import ScrollToTop from "./components/Layout/ScrollToTop";
 
 /**
  * Root Application Component.
@@ -17,6 +18,7 @@ function App() {
   return (
     <HelmetProvider>
       <Router>
+        <ScrollToTop />
         <div className="flex flex-col min-h-screen">
           <Header />
           <main className="grow">
