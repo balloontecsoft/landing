@@ -65,7 +65,7 @@ const ProductHero: React.FC<ProductHeroProps> = ({
           className="flex flex-col items-center justify-center space-y-6"
         >
           <motion.a
-            href="https://github.com/balloontecsoft/billeteseguro/releases/download/v1.1.0/billete-seguro-v1.1.0.apk"
+            href="https://github.com/balloontecsoft/billete-seguro-downloads/releases/download/v1.1.0/billete-seguro-v1.1.0.apk"
             aria-label="Descargar el archivo APK de Billete Seguro gratis"
             className="inline-flex items-center justify-center px-12 py-5 bg-brand-accent text-white text-lg font-bold tracking-wide uppercase shadow-2xl shadow-brand-accent/30 transition-all duration-300"
             whileHover={{ scale: 1.02, y: -4 }}
